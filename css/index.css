@@ -1,0 +1,205 @@
+body {
+  max-width: 10rem;
+  min-width: 4.2667rem;
+  background-color: #f2f4f7;
+}
+.wrap {
+  width: 10rem;
+  height: 9.6rem;
+}
+.wrap .nav {
+  width: 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+}
+.wrap .nav a {
+  flex: 33.3%;
+  margin-bottom: 0.6933rem;
+  height: 2.36rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.wrap .nav a img {
+  width: 1.8533rem;
+  height: 1.8533rem;
+}
+.wrap .nav a span {
+  font-size: 0.3333rem;
+  color: #707070;
+}
+.wrap .nav a:nth-child(-n+3) {
+  margin-top: 0.6933rem;
+}
+.wrap .haibao {
+  width: 10rem;
+  height: 2.0133rem;
+  padding-bottom: 0.6933rem;
+  background-color: #ffffff;
+}
+.wrap .haibao img {
+  margin: 0 auto;
+  margin: 0 0.24rem;
+  width: 9.6267rem;
+  height: 2.0133rem;
+}
+.zhidao {
+  margin-top: 0.1333rem;
+  background-color: #ffffff;
+  width: 10rem;
+  height: 7.7333rem;
+  padding-top: 0.5333rem;
+}
+.zhidao .gowork {
+  height: 0.5067rem;
+  line-height: 0.5067rem;
+  width: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.zhidao .gowork .left {
+  position: relative;
+  margin-left: 0.2933rem;
+}
+.zhidao .gowork .left img {
+  position: absolute;
+  width: 0.5067rem;
+  height: 0.5067rem;
+}
+.zhidao .gowork .left em {
+  margin-left: 0.5733rem;
+  font-size: 0.3733rem;
+  font-weight: 700;
+  color: #333333;
+}
+.zhidao .gowork .right {
+  margin-right: 0.3067rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.zhidao .gowork .right em {
+  font-size: 0.2933rem;
+  color: #999999;
+}
+.zhidao .gowork .right img {
+  width: 0.2933rem;
+  height: 0.24rem;
+}
+.zhidao .swiperShow {
+  position: relative;
+  margin-top: 0.6667rem;
+  overflow: hidden;
+}
+.zhidao .swiperShow .swiper-container {
+  height: 100%;
+  width: 10rem;
+}
+.zhidao .swiperShow .swiper-slide {
+  text-align: center;
+  font-size: 0.24rem;
+  background: #fff;
+  /* Center slide text vertically */
+  flex-direction: column;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  transition: 300ms;
+  transform: scale(0.8);
+  opacity: 0.4;
+}
+.zhidao .swiperShow .swiper-slide a {
+  width: 4.5067rem;
+  height: 5.0133rem;
+}
+.zhidao .swiperShow .swiper-slide a img {
+  width: 100%;
+  height: 100%;
+}
+.zhidao .swiperShow .swiper-slide p {
+  width: 4.5067rem;
+  font-size: 0.32rem;
+  margin-top: 0.64rem;
+  color: #333;
+}
+.zhidao .swiperShow .swiper-slide-active,
+.zhidao .swiperShow .swiper-slide-duplicate-active {
+  transform: scale(1);
+  z-index: 999;
+  opacity: 1;
+}
+.zhidao .swiperShow .swiper-button-next:after,
+.zhidao .swiperShow .swiper-button-prev:after {
+  font-size: 0.5333rem;
+  color: #333;
+}
+.study {
+  margin-top: 0.6667rem;
+  overflow: hidden;
+}
+.study .study_fo {
+  padding: 0.266667rem;
+}
+.study .swiper-slide {
+  font-size: 0.24rem;
+  background: #fff;
+  width: 3.6267rem !important;
+  height: 4.2933rem !important;
+  background-color: #fff;
+  border-radius: 0.266667rem;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.study .swiper-slide h5 {
+  font-size: 0.3467rem !important;
+  margin: 0.1333rem 0;
+  font-weight: 400;
+  padding: 0 0.266667rem;
+}
+.study .swiper-slide p {
+  font-size: 0.3467rem !important;
+  color: #ff4400;
+  padding: 0 0.266667rem;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 1.4667rem;
+  width: 10rem;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+.footer .item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer .item img {
+  width: 0.52rem;
+  height: 0.52rem;
+}
+.footer .item p {
+  font-size: 0.2933rem;
+  color: #666666;
+  margin-top: 0.1333rem;
+}
